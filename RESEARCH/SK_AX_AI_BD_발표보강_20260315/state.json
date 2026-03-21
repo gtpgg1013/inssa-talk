@@ -1,0 +1,65 @@
+{
+  "session_id": "SK_AX_AI_BD_발표보강_20260315",
+  "topic": "SK AX AI/DT BD 발표 자료 보강 — 코드 없이 Agent 만드는 시대, 우리 SI는 어디로?",
+  "created_at": "2026-03-15T00:00:00Z",
+  "updated_at": "2026-03-17T00:00:00Z",
+  "status": "PHASE_7_COMPLETED",
+  "current_phase": 7,
+  "requirements": {
+    "focus": ["발표 근거 강화 우선"],
+    "output_format": "슬라이드별 삽입 가이드",
+    "scope": {
+      "timeframe": "2024-2026",
+      "geography": "글로벌 + 한국/일본"
+    },
+    "sources": {
+      "required_types": ["academic", "industry_report", "news", "blog", "official"],
+      "min_quality": "C"
+    },
+    "audience": "BD 동료 (사업개발 매니저)",
+    "special_requirements": [
+      "15분 발표용 — 임팩트 대비 설명 비용 낮은 소재 우선",
+      "슬라이드별 삽입 위치 제안 포함",
+      "이미 조사된 내용 중복 불필요"
+    ]
+  },
+  "plan": {
+    "subtopics": [
+      "ST1: FDE 채용 800% 수치 검증 + GenAI 실패율 리포트",
+      "ST2: AI 코딩 생산성 사례 + Palantir FDE 최신 사례",
+      "ST3: 비승인 AI Agent 보안 사고 + 거버넌스 프레임워크 선례",
+      "ST4: 반도체/제조업 AI Agent ROI 사례",
+      "ST5: 글로벌·한일 SI AI 전환 전략 + 개발자 대체 논쟁"
+    ],
+    "search_queries": {},
+    "agent_assignments": [
+      {"agent": "researcher_1", "subtopics": ["ST1"]},
+      {"agent": "researcher_2", "subtopics": ["ST2"]},
+      {"agent": "researcher_3", "subtopics": ["ST3"]},
+      {"agent": "researcher_4", "subtopics": ["ST4"]},
+      {"agent": "researcher_5", "subtopics": ["ST5"]}
+    ]
+  },
+  "progress": {
+    "phase_1": "completed",
+    "phase_2": "completed",
+    "phase_3": "completed",
+    "phase_4": "completed",
+    "phase_5": "completed",
+    "phase_6": "completed",
+    "phase_7": "completed"
+  },
+  "sources_count": 130,
+  "artifacts": {
+    "agent_results": [
+      "artifacts/agent_results/st2_ai_coding_palantir.md",
+      "artifacts/agent_results/st3_shadow_ai_governance.md",
+      "artifacts/agent_results/st4_semiconductor_ai_roi.md",
+      "artifacts/agent_results/st5_si_strategy_developer_debate.md"
+    ],
+    "final_output": "outputs/00_슬라이드별_삽입_가이드.md"
+  },
+  "errors": [
+    "researcher_1 (ST1: FDE/GenAI) — 사용자에 의해 중단, 핵심 데이터는 partial output에서 확보"
+  ]
+}
