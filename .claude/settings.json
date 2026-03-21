@@ -1,0 +1,7 @@
+{
+  "enabledPlugins": {
+    "show-me-the-prd@gptaku-plugins": true,
+    "docs-guide@gptaku-plugins": true,
+    "deep-research@gptaku-plugins": true
+  }
+}
